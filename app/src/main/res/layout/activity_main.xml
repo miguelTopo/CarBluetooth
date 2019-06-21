@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    tools:context=".MainActivity">
+
+    <Button android:id="@+id/btn_test1" />
+
+    <Button
+        android:id="@+id/upButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#b2ad7f"
+        android:text="Arriba"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button android:id="@+id/btn_test2"/>
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#878f99"
+        android:text="Izquierda"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff7b25"
+        android:text="Frenar"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+
+        <Button
+        android:id="@+id/rightButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#6b5b95"
+        android:text="Derecha"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+
+    <Button android:id="@+id/btn_test3" />
+
+    <Button
+        android:id="@+id/downButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#a2b9bc"
+        android:text="Abajo"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+
+</GridLayout>
